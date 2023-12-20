@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+/* font */
+@font-face {
+  font-family: "Battambang-Bold";
+  src: url("../../public/fonts/Battambang/Battambang-Bold.ttf");
+}
+@font-face {
+  font-family: "Battambang-Regular";
+  src: url("../../public/fonts/Battambang/Battambang-Regular.ttf");
+}
+@font-face {
+  font-family: "Battambang-Light";
+  src: url("../../public/fonts/Battambang/Battambang-Light.ttf");
+}
+@font-face {
+  font-family: "Battambang-Thin";
+  src: url("../../public/fonts/Battambang/Battambang-Thin.ttf");
+}
+.btn-gradient {
+  @apply text-[#6A6967] text-sm shadow-[1px_1px_1px_#BEE2F9] px-[15px] py-2.5 rounded-[10px] border-2 border-solid border-[#3866A3] hover:text-[#14396A];
+  font-family: arial;
+  text-shadow: 1px 1px 0px #7cacde;
+  background: #eeac28;
+  background: linear-gradient(to top, #eeac28, #cf8e2b);
+}
+.btn {
+  @apply text-[#6A6967] text-sm shadow-[1px_1px_1px_#BEE2F9] px-[25px] py-2.5 rounded-[10px] border-2 border-solid border-[#3866A3] hover:text-[#14396A];
+  font-family: arial;
+  text-shadow: 1px 1px 0px #7cacde;
+  background: #eeac28;
+  background: linear-gradient(to top, #eeac28, #cf8e2b);
+}
+.btn:hover {
+  background: #44cf7c;
+  background: linear-gradient(to top, #44cf7c, #e1ee32);
+}
+
+td p {
+  font-family: Battambang-Regular;
+}

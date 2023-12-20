@@ -1,0 +1,42 @@
+{
+  "headers": [
+    {
+      "title": "Search",
+      "url": "/sections/search"
+    },
+    {
+      "title": "New Archives",
+      "url": "/sections/archive"
+    },
+    {
+      "title": "Themas",
+      "url": "/sections/themas"
+    },
+    {
+      "title": "Focus",
+      "url": "/sections/focus"
+    },
+    {
+      "title": "Collection",
+      "url": "/"
+    },
+    {
+      "title": "Help",
+      "url": "/"
+    }
+  ],
+  "search_dropdown": [
+    {
+      "title": "Simple Search",
+      "url": "/"
+    },
+    {
+      "title": "Advanced Search",
+      "url": "/"
+    },
+    {
+      "title": "Experte Search",
+      "url": "/"
+    }
+  ]
+}

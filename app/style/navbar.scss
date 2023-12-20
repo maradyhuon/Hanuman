@@ -1,0 +1,39 @@
+//header
+.head{
+    &__sidebar{
+        @apply absolute bg-fleur h-screen;
+    }
+    &__container{
+        @apply bg-gradient-to-b from-[#ECD685] to-[#DCB20B];
+        &__nav{
+            @apply flex justify-center gap-2;
+            &__link{
+                @apply relative float-left text-[#3C81B8] text-lg font-bold p-2;
+                &_subnav{
+                    @apply absolute hidden overflow-auto w-[10em] bg-[#ECD685];
+                    &_link{
+                       @apply border-b-2 float-none;
+                    }
+                }
+                &:hover &_subnav{
+                    @apply block;
+                }
+            }
+        }
+    }
+}
+
+
+//sidebar section
+.side{
+    @apply bg-[#5383B7] rounded-md ring-2 ring-white drop-shadow-xl max-w-[190px];
+    &_container{
+        @apply flex flex-col place-items-center;
+        &_img{
+            @apply py-1;
+        }
+        &_p{
+            @apply py-3 text-sm text-white;
+        }
+    }
+}
